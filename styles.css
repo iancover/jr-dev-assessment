@@ -1,0 +1,250 @@
+/******* LANDING PAGE STYLES *******/
+
+:root {
+  --white: #ffffff;
+  --grey: #c9c9c9;
+  --black: #000;
+  --light-blue: #ebf4ff;
+  --medium-blue: #2979ec;
+  --dark-blue: #0a459e;
+  --yellow: #ffbe3c;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 2176px;
+}
+
+header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 585px;
+  background: #ebf4ff 0% 0% no-repeat padding-box;
+}
+
+#logo {
+  position: absolute;
+  top: 19px;
+  left: 47px;
+  width: 106px;
+  height: 106px;
+  background: transparent url('img/logo-blue-160x160-1.png') 0% 0% no-repeat
+    padding-box;
+  background-size: contain;
+}
+
+#headerButton {
+  position: absolute;
+  top: 50px;
+  left: 1221px;
+  width: 164px;
+  height: 44px;
+  background: #2979ec 0% 0% no-repeat padding-box;
+  border-radius: 50px;
+  opacity: 1;
+}
+
+#headerButton button {
+  position: relative;
+  top: 25%;
+  left: 20%;
+  text-align: center;
+  background-color: transparent;
+  border: 0;
+  font: normal normal bold 15px/20px 'Open Sans';
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+#headerTitle {
+  position: absolute;
+  top: 238px;
+  left: 154px;
+  width: 565px;
+  height: 133px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+#headerText {
+  position: absolute;
+  top: 371px;
+  left: 153px;
+  width: 521px;
+  height: 114px;
+  text-align: left;
+  font: normal normal normal 20px/25px 'Open Sans';
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+#headerTitleLine1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 241px;
+  height: 68px;
+  text-align: left;
+  font: normal normal normal 50px/52px 'Open Sans';
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+#headerTitleLine2 {
+  position: absolute;
+  top: 52px;
+  left: 0px;
+  width: 474px;
+  height: 68px;
+  text-align: left;
+  font: normal normal bold 50px/52px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+#middleTitleBox {
+  position: absolute;
+  top: 725px;
+  left: 154px;
+  width: 520px;
+  height: 145px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+#middleTitleText {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  text-align: left;
+  font: normal normal normal 40px/45px 'Open Sans';
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+#middleTitleText span {
+  font-weight: bold;
+}
+
+#middleText {
+  position: absolute;
+  top: 886px;
+  left: 154px;
+  width: 499px;
+  height: 180px;
+  text-align: left;
+  font: normal normal normal 20px/25px 'Open Sans';
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+#middleImage {
+  position: absolute;
+  top: 699px;
+  left: 742px;
+  width: 578px;
+  height: 410px;
+  opacity: 1;
+}
+
+#bottomImage {
+  position: absolute;
+  top: 1210px;
+  left: 89px;
+  width: 630px;
+  height: 446px;
+  background: transparent url('img/Complete-Department-Marketing.png') 50% 0%
+    no-repeat padding-box;
+  background-size: contain;
+  filter: drop-shadow(3px 6px 15px rgba(0, 0, 0, 0.212));
+}
+
+#bottomTitleBox {
+  position: absolute;
+  top: 1256px;
+  left: 742px;
+  width: 457px;
+  height: 100px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+#bottomText {
+  position: absolute;
+  top: 1396px;
+  left: 742px;
+  width: 534px;
+  height: 228px;
+  text-align: left;
+  font: normal normal normal 20px/25px 'Open Sans';
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+#footerTitleBox {
+  position: absolute;
+  top: 1904px;
+  left: 220px;
+  width: 1000px;
+  height: 57px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+#footerTitleText {
+  position: relative;
+  top: 0px;
+  left: 0.35791015625px;
+  width: 410px;
+  height: 57px;
+  text-align: center;
+  font: normal normal normal 42px/70px 'Open Sans';
+}
+
+#footerButton {
+  position: absolute;
+  top: 2018px;
+  left: 638px;
+  width: 164px;
+  height: 44px;
+  background: #ffbe3c 0% 0% no-repeat padding-box;
+  border-radius: 50px;
+}
+
+#footerButton button {
+  position: relative;
+  top: 25%;
+  left: 20%;
+  text-align: center;
+  background-color: transparent;
+  border: 0;
+  font: normal normal bold 15px/20px 'Open Sans';
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+footer {
+  position: absolute;
+  top: 1785px;
+  left: 0px;
+  width: 1440px;
+  height: 392px;
+  background: #0a459e 0% 0% no-repeat padding-box;
+}
